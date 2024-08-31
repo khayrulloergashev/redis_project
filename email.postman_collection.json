@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "0b38a2a2-c15c-4378-91c4-19828f9315b4",
+		"name": "email",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "22809301"
+	},
+	"item": [
+		{
+			"name": "This request send code  to your email",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"youremail@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://your_url:8000/email"
+			},
+			"response": []
+		}
+	]
+}
