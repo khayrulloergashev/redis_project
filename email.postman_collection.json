@@ -13,14 +13,32 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\":\"youremail@gmail.com\"\r\n}",
+					"raw": "{\r\n    \"email\":\"xayrullodev@gmail.com\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "http://your_url:8000/email"
+				"url": "http://localhost:8000/api/email"
+			},
+			"response": []
+		},
+		{
+			"name": "password verification",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"ismoilov000azizbek@gmail.com\",\r\n    \"verifyCode\":506099\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8000/api/auth"
 			},
 			"response": []
 		}
